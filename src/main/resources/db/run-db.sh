@@ -1,5 +1,12 @@
-RUTA=/Users/garellano/development/plank-db
-SCRIPTS=/Users/garellano/development/plank/src/main/resources/db
+cd ~
+mkdir -p plank-db/{mysql,scripts}
+
+RUTA=$HOME/plank-db/mysql
+
+### AQUI HAY QUE AJUSTAR LA VARIABLE "SCRIPTS" PARA QUE APUNTE
+### AL DIRECTORIO QUE CONTIENE EL ARCHIVO: dump.sql
+# SCRIPTS=/Users/garellano/development/plank/src/main/resources/db
+SCRIPTS=$HOME/plank-db/scripts
 
 docker stop plank
 docker rm plank
@@ -20,3 +27,10 @@ echo "Corriendo el script de inicialización de la base de datos..."
 sleep 10
 docker exec -it -w /scripts plank bash ./init.sh
 echo "Base de datos inicializada !!!"
+
+
+
+
+
+
+
