@@ -1,0 +1,31 @@
+"resume": {
+    "name": "Gustavo Adolfo Arellano Sandoval",
+    "birth": "October 22nd, 1967",
+    "address": "San Matias 198, Colonia Pedregal de Santa Ursula, CP 04600, Coyoacán CDMX, Mexico",
+    "bachelors": "Pure Mathematics at UNAM, Mexico (1991)",
+    "post-graduate": "MSC Software Engineering at IIMAS, Mexico (2001)",
+    "publications": {
+        "Antelope":{
+            "title":"A hybrid-logic model checker for branching-time Boolean GRN analysis",
+            "date":"December, 2011",
+            "url":"https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-490"
+        }
+    },
+    "email": {
+        "main": "arellano.gustavo@gmail.com",
+        "secondary": "gustavo.arellano@metasoft.com.mx"
+    },
+    "phone" : {
+        "cell": "+52 (551) 1691 3070",
+        "home": "+52 (551) 5617 6160",
+        "office": "+52 (551) 5644 2895"
+    },
+    "description": "Software Architect, CI/CD implementator, Scrum Coach",
+    "certifications": {
+        "SCJD":"Sun Certified Java Developer ()",
+        "ECSP":"Ec Council Secure Programmer ()",
+        "SCF":"Scrum Certified Fundamentals ()",
+        "SCSM":"Scrum Certified Scrum Master ()",
+        "SCPO":"Dcrum Certified Product Owner ()"
+    }
+}
